@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */; };
+		5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */; };
+		5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */; };
+		5B3B724C2F4540A600A0C1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3B724B2F4540A600A0C1BB /* Assets.xcassets */; };
+		5B3B724F2F4540A600A0C1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */; };
+		5B3B725A2F4540A600A0C1BB /* FutebasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72592F4540A600A0C1BB /* FutebasAppTests.swift */; };
+		5B3B72642F4540A600A0C1BB /* FutebasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72632F4540A600A0C1BB /* FutebasAppUITests.swift */; };
+		5B3B72662F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */; };
+		5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B3B72562F4540A600A0C1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3B72342F4540A400A0C1BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B3B723B2F4540A400A0C1BB;
+			remoteInfo = FutebasApp;
+		};
+		5B3B72602F4540A600A0C1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3B72342F4540A400A0C1BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B3B723B2F4540A400A0C1BB;
+			remoteInfo = FutebasApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B3B723C2F4540A400A0C1BB /* FutebasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutebasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B3B72492F4540A400A0C1BB /* FutebasApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FutebasApp.xcdatamodel; sourceTree = "<group>"; };
+		5B3B724B2F4540A600A0C1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B3B724E2F4540A600A0C1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B3B72502F4540A600A0C1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3B72552F4540A600A0C1BB /* FutebasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutebasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3B72592F4540A600A0C1BB /* FutebasAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasAppTests.swift; sourceTree = "<group>"; };
+		5B3B725F2F4540A600A0C1BB /* FutebasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutebasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3B72632F4540A600A0C1BB /* FutebasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasAppUITests.swift; sourceTree = "<group>"; };
+		5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B3B72742F4541AA00A0C1BB /* Documentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Documentation.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B3B72392F4540A400A0C1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B72522F4540A600A0C1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B725C2F4540A600A0C1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B3B72332F4540A400A0C1BB = {
+			isa = PBXGroup;
+			children = (
+				5B3B723E2F4540A400A0C1BB /* FutebasApp */,
+				5B3B72582F4540A600A0C1BB /* FutebasAppTests */,
+				5B3B72622F4540A600A0C1BB /* FutebasAppUITests */,
+				5B3B723D2F4540A400A0C1BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B3B723D2F4540A400A0C1BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B723C2F4540A400A0C1BB /* FutebasApp.app */,
+				5B3B72552F4540A600A0C1BB /* FutebasAppTests.xctest */,
+				5B3B725F2F4540A600A0C1BB /* FutebasAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B3B723E2F4540A400A0C1BB /* FutebasApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B72742F4541AA00A0C1BB /* Documentation.md */,
+				5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */,
+				5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */,
+				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
+				5B3B724B2F4540A600A0C1BB /* Assets.xcassets */,
+				5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */,
+				5B3B72502F4540A600A0C1BB /* Info.plist */,
+				5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */,
+			);
+			path = FutebasApp;
+			sourceTree = "<group>";
+		};
+		5B3B72582F4540A600A0C1BB /* FutebasAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B72592F4540A600A0C1BB /* FutebasAppTests.swift */,
+			);
+			path = FutebasAppTests;
+			sourceTree = "<group>";
+		};
+		5B3B72622F4540A600A0C1BB /* FutebasAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B72632F4540A600A0C1BB /* FutebasAppUITests.swift */,
+				5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */,
+			);
+			path = FutebasAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B3B723B2F4540A400A0C1BB /* FutebasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3B72692F4540A600A0C1BB /* Build configuration list for PBXNativeTarget "FutebasApp" */;
+			buildPhases = (
+				5B3B72382F4540A400A0C1BB /* Sources */,
+				5B3B72392F4540A400A0C1BB /* Frameworks */,
+				5B3B723A2F4540A400A0C1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutebasApp;
+			productName = FutebasApp;
+			productReference = 5B3B723C2F4540A400A0C1BB /* FutebasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B3B72542F4540A600A0C1BB /* FutebasAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3B726C2F4540A600A0C1BB /* Build configuration list for PBXNativeTarget "FutebasAppTests" */;
+			buildPhases = (
+				5B3B72512F4540A600A0C1BB /* Sources */,
+				5B3B72522F4540A600A0C1BB /* Frameworks */,
+				5B3B72532F4540A600A0C1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3B72572F4540A600A0C1BB /* PBXTargetDependency */,
+			);
+			name = FutebasAppTests;
+			productName = FutebasAppTests;
+			productReference = 5B3B72552F4540A600A0C1BB /* FutebasAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B3B725E2F4540A600A0C1BB /* FutebasAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3B726F2F4540A600A0C1BB /* Build configuration list for PBXNativeTarget "FutebasAppUITests" */;
+			buildPhases = (
+				5B3B725B2F4540A600A0C1BB /* Sources */,
+				5B3B725C2F4540A600A0C1BB /* Frameworks */,
+				5B3B725D2F4540A600A0C1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3B72612F4540A600A0C1BB /* PBXTargetDependency */,
+			);
+			name = FutebasAppUITests;
+			productName = FutebasAppUITests;
+			productReference = 5B3B725F2F4540A600A0C1BB /* FutebasAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B3B72342F4540A400A0C1BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5B3B723B2F4540A400A0C1BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5B3B72542F4540A600A0C1BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5B3B723B2F4540A400A0C1BB;
+					};
+					5B3B725E2F4540A600A0C1BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5B3B723B2F4540A400A0C1BB;
+					};
+				};
+			};
+			buildConfigurationList = 5B3B72372F4540A400A0C1BB /* Build configuration list for PBXProject "FutebasApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B3B72332F4540A400A0C1BB;
+			productRefGroup = 5B3B723D2F4540A400A0C1BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B3B723B2F4540A400A0C1BB /* FutebasApp */,
+				5B3B72542F4540A600A0C1BB /* FutebasAppTests */,
+				5B3B725E2F4540A600A0C1BB /* FutebasAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B3B723A2F4540A400A0C1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3B724F2F4540A600A0C1BB /* LaunchScreen.storyboard in Resources */,
+				5B3B724C2F4540A600A0C1BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B72532F4540A600A0C1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B725D2F4540A600A0C1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B3B72382F4540A400A0C1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */,
+				5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */,
+				5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */,
+				5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B72512F4540A600A0C1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3B725A2F4540A600A0C1BB /* FutebasAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B725B2F4540A600A0C1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3B72642F4540A600A0C1BB /* FutebasAppUITests.swift in Sources */,
+				5B3B72662F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B3B72572F4540A600A0C1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B3B723B2F4540A400A0C1BB /* FutebasApp */;
+			targetProxy = 5B3B72562F4540A600A0C1BB /* PBXContainerItemProxy */;
+		};
+		5B3B72612F4540A600A0C1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B3B723B2F4540A400A0C1BB /* FutebasApp */;
+			targetProxy = 5B3B72602F4540A600A0C1BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B3B724E2F4540A600A0C1BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B3B72672F4540A600A0C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B3B72682F4540A600A0C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B3B726A2F4540A600A0C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FutebasApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coffee4Dev.FutebasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B3B726B2F4540A600A0C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FutebasApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coffee4Dev.FutebasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5B3B726D2F4540A600A0C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coffee4Dev.FutebasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutebasApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FutebasApp";
+			};
+			name = Debug;
+		};
+		5B3B726E2F4540A600A0C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coffee4Dev.FutebasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutebasApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FutebasApp";
+			};
+			name = Release;
+		};
+		5B3B72702F4540A600A0C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coffee4Dev.FutebasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FutebasApp;
+			};
+			name = Debug;
+		};
+		5B3B72712F4540A600A0C1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUTLL58S2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coffee4Dev.FutebasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FutebasApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B3B72372F4540A400A0C1BB /* Build configuration list for PBXProject "FutebasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3B72672F4540A600A0C1BB /* Debug */,
+				5B3B72682F4540A600A0C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3B72692F4540A600A0C1BB /* Build configuration list for PBXNativeTarget "FutebasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3B726A2F4540A600A0C1BB /* Debug */,
+				5B3B726B2F4540A600A0C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3B726C2F4540A600A0C1BB /* Build configuration list for PBXNativeTarget "FutebasAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3B726D2F4540A600A0C1BB /* Debug */,
+				5B3B726E2F4540A600A0C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3B726F2F4540A600A0C1BB /* Build configuration list for PBXNativeTarget "FutebasAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3B72702F4540A600A0C1BB /* Debug */,
+				5B3B72712F4540A600A0C1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B3B72492F4540A400A0C1BB /* FutebasApp.xcdatamodel */,
+			);
+			currentVersion = 5B3B72492F4540A400A0C1BB /* FutebasApp.xcdatamodel */;
+			path = FutebasApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B3B72342F4540A400A0C1BB /* Project object */;
+}
