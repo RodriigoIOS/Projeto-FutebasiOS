@@ -39,9 +39,19 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .systemGreen
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+        view.addGestureRecognizer(tapGesture)
+        
         addSubviews()
         addConstraints()
+        
+        
     }
+    
+    @objc func handleTap() {
+        print("User pressionou a tela")
+    }
+    
     
     @objc func actionLoginBtn() {
         print("Hello team")

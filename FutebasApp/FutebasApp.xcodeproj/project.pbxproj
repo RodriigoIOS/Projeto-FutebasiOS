@@ -20,6 +20,8 @@
 		5BAF5CED2F81CAFE009C3358 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEC2F81CAFE009C3358 /* FirebaseAuth */; };
 		5BAF5CEF2F81CAFE009C3358 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEE2F81CAFE009C3358 /* FirebaseCore */; };
 		5BAF5CF12F81CAFE009C3358 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CF02F81CAFE009C3358 /* FirebaseCrashlytics */; };
+		5BAF5CFB2F81D340009C3358 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF5CFA2F81D340009C3358 /* AppCoordinator.swift */; };
+		5BAF5CFE2F81D36E009C3358 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF5CFD2F81D36E009C3358 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B3B72742F4541AA00A0C1BB /* Documentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Documentation.md; sourceTree = "<group>"; };
 		5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BAF5CFA2F81D340009C3358 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5BAF5CFD2F81D36E009C3358 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,41 +89,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F2F4CC12F771EB90005BDD9 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		4F2F4CC22F771EC80005BDD9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		4F2F4CC32F771ECF0005BDD9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		4F2F4CC42F771EDB0005BDD9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4F2F4CC52F772B870005BDD9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		5B3B72332F4540A400A0C1BB = {
 			isa = PBXGroup;
 			children = (
@@ -143,15 +112,10 @@
 		5B3B723E2F4540A400A0C1BB /* FutebasApp */ = {
 			isa = PBXGroup;
 			children = (
-				4F2F4CC52F772B870005BDD9 /* Resources */,
-				4F2F4CC42F771EDB0005BDD9 /* View */,
-				4F2F4CC32F771ECF0005BDD9 /* Model */,
-				4F2F4CC22F771EC80005BDD9 /* Services */,
-				4F2F4CC12F771EB90005BDD9 /* ViewModel */,
-				5B3B72742F4541AA00A0C1BB /* Documentation.md */,
-				5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */,
-				5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */,
-				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
+				5BAF5CFC2F81D355009C3358 /* Service */,
+				5BAF5CF92F81D32C009C3358 /* Coordinators */,
+				5BAF5CF82F81D04F009C3358 /* Resources */,
+				5BAF5CF22F81CF9D009C3358 /* Features */,
 				5B3B724B2F4540A600A0C1BB /* Assets.xcassets */,
 				5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */,
 				5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */,
@@ -176,6 +140,48 @@
 				5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */,
 			);
 			path = FutebasAppUITests;
+			sourceTree = "<group>";
+		};
+		5BAF5CF22F81CF9D009C3358 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF5CF32F81D020009C3358 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5BAF5CF32F81D020009C3358 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5BAF5CF82F81D04F009C3358 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B72742F4541AA00A0C1BB /* Documentation.md */,
+				5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */,
+				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BAF5CF92F81D32C009C3358 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF5CFA2F81D340009C3358 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		5BAF5CFC2F81D355009C3358 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF5CFD2F81D36E009C3358 /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,8 +320,10 @@
 			files = (
 				5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */,
 				5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */,
+				5BAF5CFB2F81D340009C3358 /* AppCoordinator.swift in Sources */,
 				5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */,
 				5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */,
+				5BAF5CFE2F81D36E009C3358 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
