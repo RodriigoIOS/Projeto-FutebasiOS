@@ -16,6 +16,10 @@
 		5B3B72642F4540A600A0C1BB /* FutebasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72632F4540A600A0C1BB /* FutebasAppUITests.swift */; };
 		5B3B72662F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */; };
 		5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */; };
+		5BAF5CEA2F81C973009C3358 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */; };
+		5BAF5CED2F81CAFE009C3358 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEC2F81CAFE009C3358 /* FirebaseAuth */; };
+		5BAF5CEF2F81CAFE009C3358 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEE2F81CAFE009C3358 /* FirebaseCore */; };
+		5BAF5CF12F81CAFE009C3358 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CF02F81CAFE009C3358 /* FirebaseCrashlytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,7 @@
 		5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B3B72742F4541AA00A0C1BB /* Documentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Documentation.md; sourceTree = "<group>"; };
+		5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAF5CF12F81CAFE009C3358 /* FirebaseCrashlytics in Frameworks */,
+				5BAF5CEF2F81CAFE009C3358 /* FirebaseCore in Frameworks */,
+				5BAF5CED2F81CAFE009C3358 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +154,7 @@
 				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
 				5B3B724B2F4540A600A0C1BB /* Assets.xcassets */,
 				5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */,
+				5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */,
 				5B3B72502F4540A600A0C1BB /* Info.plist */,
 				5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */,
 			);
@@ -257,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 5B3B72332F4540A400A0C1BB;
+			packageReferences = (
+				5BAF5CEB2F81CAFE009C3358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5B3B723D2F4540A400A0C1BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,6 +287,7 @@
 			files = (
 				5B3B724F2F4540A600A0C1BB /* LaunchScreen.storyboard in Resources */,
 				5B3B724C2F4540A600A0C1BB /* Assets.xcassets in Resources */,
+				5BAF5CEA2F81C973009C3358 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,9 +482,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RUTLL58S2M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FutebasApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -501,9 +515,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RUTLL58S2M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FutebasApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -644,6 +659,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BAF5CEB2F81CAFE009C3358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BAF5CEC2F81CAFE009C3358 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BAF5CEB2F81CAFE009C3358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5BAF5CEE2F81CAFE009C3358 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BAF5CEB2F81CAFE009C3358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		5BAF5CF02F81CAFE009C3358 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BAF5CEB2F81CAFE009C3358 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */ = {
