@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
     }
     
     @objc func actionLoginBtn() {
-        
+        print("Hello team")
     }
     
     func addSubviews() {
