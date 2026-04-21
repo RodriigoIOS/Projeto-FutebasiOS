@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1539822F972FFE003D782E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1539812F972FFE003D782E /* Networking.swift */; };
 		5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */; };
 		5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */; };
 		5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1539812F972FFE003D782E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		5B3B723C2F4540A400A0C1BB /* FutebasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutebasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,39 +87,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F2F4CC12F771EB90005BDD9 /* ViewModel */ = {
+		5B15397D2F971CEC003D782E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		4F2F4CC22F771EC80005BDD9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		4F2F4CC32F771ECF0005BDD9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		4F2F4CC42F771EDB0005BDD9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4F2F4CC52F772B870005BDD9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
+				5B3B724B2F4540A600A0C1BB /* Assets.xcassets */,
+				5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */,
+				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
+				5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B15397E2F971D1F003D782E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5B15397F2F971D31003D782E /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5B15397F2F971D31003D782E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5B1539802F972FEA003D782E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5B1539812F972FFE003D782E /* Networking.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		5B3B72332F4540A400A0C1BB = {
@@ -143,17 +145,10 @@
 		5B3B723E2F4540A400A0C1BB /* FutebasApp */ = {
 			isa = PBXGroup;
 			children = (
-				4F2F4CC52F772B870005BDD9 /* Resources */,
-				4F2F4CC42F771EDB0005BDD9 /* View */,
-				4F2F4CC32F771ECF0005BDD9 /* Model */,
-				4F2F4CC22F771EC80005BDD9 /* Services */,
-				4F2F4CC12F771EB90005BDD9 /* ViewModel */,
+				5B1539802F972FEA003D782E /* Networking */,
+				5B15397E2F971D1F003D782E /* Features */,
+				5B15397D2F971CEC003D782E /* Resources */,
 				5B3B72742F4541AA00A0C1BB /* Documentation.md */,
-				5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */,
-				5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */,
-				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
-				5B3B724B2F4540A600A0C1BB /* Assets.xcassets */,
-				5B3B724D2F4540A600A0C1BB /* LaunchScreen.storyboard */,
 				5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */,
 				5B3B72502F4540A600A0C1BB /* Info.plist */,
 				5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */,
@@ -313,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */,
+				5B1539822F972FFE003D782E /* Networking.swift in Sources */,
 				5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */,
 				5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */,
 				5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */,
