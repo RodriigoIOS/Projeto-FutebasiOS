@@ -26,21 +26,24 @@ class LoginViewController: UIViewController {
         return label
     }()
     
-    var loginTextField: UITextField = {
-        let textField = UITextField(frame: .zero)
-        textField.layer.borderWidth = 0.5
+    
+    var loginTextField = FutebasTextField(placeholder: "name@example.com", icon: UIImage(systemName: "envelope.fill"))
+    
+    
+    var passwordTextField: FutebasTextField = {
+        let textField = FutebasTextField(placeholder: "********", icon: UIImage(systemName: "lock.fill"))
+        textField.isSecureTextEntry = true
         textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Insira seu email"
         return textField
     }()
     
-    var passwordTextField: UITextField = {
-        let textField = UITextField(frame: .zero)
-        textField.layer.borderWidth = 0.5
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Insira sua senha"
-        return textField
-    }()
+//    var passwordTextField: UITextField = {
+//        let textField = UITextField(frame: .zero)
+//        textField.layer.borderWidth = 0.5
+//        textField.translatesAutoresizingMaskIntoConstraints = false
+//        textField.placeholder = "Insira sua senha"
+//        return textField
+//    }()
     
     var loginButton: UIButton = {
         let button = UIButton()
@@ -73,6 +76,8 @@ class LoginViewController: UIViewController {
     }
     
     func addConstraints() {
+        loginTextField.translatesAutoresizingMaskIntoConstraints = false
+        
         NSLayoutConstraint.activate([
             loginLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             loginLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
