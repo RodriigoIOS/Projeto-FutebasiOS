@@ -45,9 +45,10 @@ class LoginViewController: UIViewController {
 //        return textField
 //    }()
     
-    var loginButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = .systemBlue
+    var loginButton: FutebasButton = {
+        let button = FutebasButton(title: "Login", style: .secondary)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector (actionLoginBtn), for: .touchUpInside)
         
         return button
     }()
@@ -57,13 +58,13 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemGreen
+        view.backgroundColor = .systemBackground
         addSubviews()
         addConstraints()
     }
     
-    @objc func actionLoginBtn() {
-        print("Hello team")
+    @objc private func actionLoginBtn() {
+        print("The button was pressed")
     }
     
     func addSubviews() {
@@ -97,7 +98,13 @@ class LoginViewController: UIViewController {
             passwordTextField.leadingAnchor.constraint(equalTo: passwordLabel.trailingAnchor, constant: 12),
             passwordTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -12),
             passwordTextField.topAnchor.constraint(equalTo: loginTextField.bottomAnchor, constant: 15),
-            passwordTextField.heightAnchor.constraint(equalToConstant: 50)
+            passwordTextField.heightAnchor.constraint(equalToConstant: 50),
+            
+            loginButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
+            loginButton.topAnchor.constraint(equalTo: passwordLabel.bottomAnchor, constant: 30),
+            loginButton.widthAnchor.constraint(equalToConstant: 100)
+            
+            
         ])
     }
 }

@@ -31,12 +31,12 @@ final class FutebasTextField: UITextField {
     // Metodo referente a configuracao da UITextField
     private func setupUI(placeholder: String, icon: UIImage?) {
         self.placeholder = placeholder
-        self.backgroundColor = UIColor.systemGray6
+        self.backgroundColor = FutebasColors.surfaceSecundary
         self.layer.cornerRadius = 10
         self.clipsToBounds = true
         self.font = .systemFont(ofSize: 16, weight: .regular)
-        self.textColor = .label
-        self.tintColor = .systemGreen
+        self.textColor = FutebasColors.textPrimary
+        self.tintColor = FutebasColors.primary
         self.autocorrectionType = .no
         self.autocapitalizationType = .none
         

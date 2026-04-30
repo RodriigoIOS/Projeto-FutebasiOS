@@ -17,6 +17,8 @@
 		5B3B72642F4540A600A0C1BB /* FutebasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72632F4540A600A0C1BB /* FutebasAppUITests.swift */; };
 		5B3B72662F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */; };
 		5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */; };
+		5B8023982FA10D3E00C04D61 /* FutebasButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8023972FA10D3E00C04D61 /* FutebasButton.swift */; };
+		5B80239A2FA2ED0800C04D61 /* FutebasColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8023992FA2ED0800C04D61 /* FutebasColors.swift */; };
 		5BAF5CEA2F81C973009C3358 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */; };
 		5BAF5CED2F81CAFE009C3358 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEC2F81CAFE009C3358 /* FirebaseAuth */; };
 		5BAF5CEF2F81CAFE009C3358 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEE2F81CAFE009C3358 /* FirebaseCore */; };
@@ -57,6 +59,8 @@
 		5B3B72652F4540A600A0C1BB /* FutebasAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B3B72742F4541AA00A0C1BB /* Documentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Documentation.md; sourceTree = "<group>"; };
+		5B8023972FA10D3E00C04D61 /* FutebasButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasButton.swift; sourceTree = "<group>"; };
+		5B8023992FA2ED0800C04D61 /* FutebasColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasColors.swift; sourceTree = "<group>"; };
 		5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */,
+				5B8023972FA10D3E00C04D61 /* FutebasButton.swift */,
+				5B8023992FA2ED0800C04D61 /* FutebasColors.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -336,9 +342,11 @@
 			files = (
 				5B3B72732F4540FA00A0C1BB /* LoginViewController.swift in Sources */,
 				5B1539822F972FFE003D782E /* Networking.swift in Sources */,
+				5B80239A2FA2ED0800C04D61 /* FutebasColors.swift in Sources */,
 				5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */,
 				5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */,
 				5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */,
+				5B8023982FA10D3E00C04D61 /* FutebasButton.swift in Sources */,
 				5BF4DE4B2F9F8DF3000B6CEF /* FutebasTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
