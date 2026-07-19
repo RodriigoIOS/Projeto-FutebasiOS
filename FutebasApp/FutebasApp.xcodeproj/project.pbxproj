@@ -23,6 +23,10 @@
 		5BAF5CED2F81CAFE009C3358 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEC2F81CAFE009C3358 /* FirebaseAuth */; };
 		5BAF5CEF2F81CAFE009C3358 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CEE2F81CAFE009C3358 /* FirebaseCore */; };
 		5BAF5CF12F81CAFE009C3358 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAF5CF02F81CAFE009C3358 /* FirebaseCrashlytics */; };
+		5BB038682FA42C27008E714B /* FutebasSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB038672FA42C27008E714B /* FutebasSpacing.swift */; };
+		5BB0386A2FA42D99008E714B /* FutebasRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB038692FA42D99008E714B /* FutebasRadius.swift */; };
+		5BB0386C2FA42E51008E714B /* FutebasTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0386B2FA42E51008E714B /* FutebasTypography.swift */; };
+		5BB0386E2FA4320C008E714B /* LoginViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0386D2FA4320C008E714B /* LoginViewControllerPreview.swift */; };
 		5BF4DE4B2F9F8DF3000B6CEF /* FutebasTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,10 @@
 		5B8023972FA10D3E00C04D61 /* FutebasButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasButton.swift; sourceTree = "<group>"; };
 		5B8023992FA2ED0800C04D61 /* FutebasColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasColors.swift; sourceTree = "<group>"; };
 		5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BB038672FA42C27008E714B /* FutebasSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasSpacing.swift; sourceTree = "<group>"; };
+		5BB038692FA42D99008E714B /* FutebasRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasRadius.swift; sourceTree = "<group>"; };
+		5BB0386B2FA42E51008E714B /* FutebasTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasTypography.swift; sourceTree = "<group>"; };
+		5BB0386D2FA4320C008E714B /* LoginViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerPreview.swift; sourceTree = "<group>"; };
 		5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				5B3B72722F4540FA00A0C1BB /* LoginViewController.swift */,
+				5BB0386D2FA4320C008E714B /* LoginViewControllerPreview.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -202,6 +211,9 @@
 				5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */,
 				5B8023972FA10D3E00C04D61 /* FutebasButton.swift */,
 				5B8023992FA2ED0800C04D61 /* FutebasColors.swift */,
+				5BB038672FA42C27008E714B /* FutebasSpacing.swift */,
+				5BB038692FA42D99008E714B /* FutebasRadius.swift */,
+				5BB0386B2FA42E51008E714B /* FutebasTypography.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -344,9 +356,13 @@
 				5B1539822F972FFE003D782E /* Networking.swift in Sources */,
 				5B80239A2FA2ED0800C04D61 /* FutebasColors.swift in Sources */,
 				5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */,
+				5BB0386C2FA42E51008E714B /* FutebasTypography.swift in Sources */,
+				5BB038682FA42C27008E714B /* FutebasSpacing.swift in Sources */,
 				5B3B724A2F4540A400A0C1BB /* FutebasApp.xcdatamodeld in Sources */,
 				5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */,
+				5BB0386E2FA4320C008E714B /* LoginViewControllerPreview.swift in Sources */,
 				5B8023982FA10D3E00C04D61 /* FutebasButton.swift in Sources */,
+				5BB0386A2FA42D99008E714B /* FutebasRadius.swift in Sources */,
 				5BF4DE4B2F9F8DF3000B6CEF /* FutebasTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

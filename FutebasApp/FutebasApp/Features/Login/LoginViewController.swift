@@ -48,7 +48,7 @@ class LoginViewController: UIViewController {
     var loginButton: FutebasButton = {
         let button = FutebasButton(title: "Login", style: .secondary)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector (actionLoginBtn), for: .touchUpInside)
+        button.addTarget(LoginViewController.self, action: #selector (actionLoginBtn), for: .touchUpInside)
         
         return button
     }()
@@ -106,5 +106,13 @@ class LoginViewController: UIViewController {
             
             
         ])
+    }
+}
+
+import SwiftUI
+
+#Preview {
+    LoginViewControllerPreview {
+        LoginViewController()
     }
 }
