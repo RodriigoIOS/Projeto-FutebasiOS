@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DCD6C2AE723A7047C8C8711 /* MatchDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE34A8158911A813C3EC82 /* MatchDetailInteractor.swift */; };
+		1BA33E28FD097911CFD9FA54 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C74FA3934B56E03392673F /* MatchCell.swift */; };
+		1CE738F87A0C47E5B6570779 /* MatchesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77086640A968D15AAD1EA9E /* MatchesWorker.swift */; };
+		1D27F995FB7B657182FA2FDA /* MatchDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2D8AF1B3D748C31938168 /* MatchDetailWorker.swift */; };
+		41696345290D6D44A18E0E6D /* CreateMatchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37018333EFA40E00A34ABED3 /* CreateMatchPresenter.swift */; };
+		5AFF3A4E111A489EB28BC5F9 /* MatchFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B31490015901CA7EA2B551 /* MatchFormatting.swift */; };
 		5B1539822F972FFE003D782E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1539812F972FFE003D782E /* Networking.swift */; };
 		5B3B72402F4540A400A0C1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */; };
 		5B3B72422F4540A400A0C1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */; };
@@ -28,6 +34,23 @@
 		5BB0386C2FA42E51008E714B /* FutebasTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0386B2FA42E51008E714B /* FutebasTypography.swift */; };
 		5BB0386E2FA4320C008E714B /* LoginViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0386D2FA4320C008E714B /* LoginViewControllerPreview.swift */; };
 		5BF4DE4B2F9F8DF3000B6CEF /* FutebasTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */; };
+		673DE9E339F9F375519E79EC /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955F479EFA8D023B0D8C22C5 /* Match.swift */; };
+		6CFF4A794CF6A5EDB0B75191 /* MatchesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D079B54E013AFD87BD72823C /* MatchesCoordinator.swift */; };
+		74914FD774822026AD7781A4 /* CreateMatchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC357D1AF2A6C8CDB34FF4 /* CreateMatchWorker.swift */; };
+		7B07B6BE230AEB6C61472B92 /* CreateMatchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E2DF4C70BB99C2713C949 /* CreateMatchModels.swift */; };
+		980DEECDBA05D8A803D08916 /* MatchesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD5BCB7E724D34EFE11B61 /* MatchesModels.swift */; };
+		9B86554FC0DC930990ECD59D /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC9335D330780668E220E7 /* MatchDetailViewController.swift */; };
+		9DF516FA78D827D92FD3DDCA /* MatchesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153B0E84620B06F29B6400CF /* MatchesInteractor.swift */; };
+		A08ACA9F8515FA20F48F0FCE /* DashedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A0199592F23F85B5C5D21 /* DashedBorder.swift */; };
+		B13A51FD170BE0A1A97852D1 /* MatchesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F11AA358049F3D9AB58F7 /* MatchesPresenter.swift */; };
+		B27E3A0DD3ACD42FF9FD9698 /* CreateMatchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A39A23D863AC66BF5CD638 /* CreateMatchInteractor.swift */; };
+		B3FA28B076D3D5D5DCADD5E4 /* MatchesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0896345C20BC42DB3750BD /* MatchesStore.swift */; };
+		BA38EB809A6BE1FF8EF8902D /* TeamCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B0A1F953685FE13283501 /* TeamCardView.swift */; };
+		C5EA5EB1B888761F0167F679 /* MatchDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F76F5551C4E749F484AF0 /* MatchDetailModels.swift */; };
+		E00F4AB35637DD7785C42A22 /* ToggleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF199E5F381BC592959174A6 /* ToggleSwitchView.swift */; };
+		E0BA0BB37A705CD544A4F73F /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF0046FE83E3352ED30455 /* MatchesViewController.swift */; };
+		E3D8F82C29E78812DC648359 /* CreateMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D134CB2351B0707CE144F9A /* CreateMatchViewController.swift */; };
+		EFFB14A978DFD075E9BA6DFC /* MatchDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC52D1772614B16A3ED21F /* MatchDetailPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +71,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153B0E84620B06F29B6400CF /* MatchesInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesInteractor.swift; sourceTree = "<group>"; };
+		25E2D8AF1B3D748C31938168 /* MatchDetailWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchDetailWorker.swift; sourceTree = "<group>"; };
+		37018333EFA40E00A34ABED3 /* CreateMatchPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateMatchPresenter.swift; sourceTree = "<group>"; };
+		424E2DF4C70BB99C2713C949 /* CreateMatchModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateMatchModels.swift; sourceTree = "<group>"; };
+		4BFD5BCB7E724D34EFE11B61 /* MatchesModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesModels.swift; sourceTree = "<group>"; };
+		4D1B0A1F953685FE13283501 /* TeamCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeamCardView.swift; sourceTree = "<group>"; };
+		54A39A23D863AC66BF5CD638 /* CreateMatchInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateMatchInteractor.swift; sourceTree = "<group>"; };
 		5B1539812F972FFE003D782E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		5B3B723C2F4540A400A0C1BB /* FutebasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutebasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +101,22 @@
 		5BB0386B2FA42E51008E714B /* FutebasTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasTypography.swift; sourceTree = "<group>"; };
 		5BB0386D2FA4320C008E714B /* LoginViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerPreview.swift; sourceTree = "<group>"; };
 		5BF4DE4A2F9F8DF3000B6CEF /* FutebasTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutebasTextField.swift; sourceTree = "<group>"; };
+		5EBE34A8158911A813C3EC82 /* MatchDetailInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchDetailInteractor.swift; sourceTree = "<group>"; };
+		68BC357D1AF2A6C8CDB34FF4 /* CreateMatchWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateMatchWorker.swift; sourceTree = "<group>"; };
+		77B31490015901CA7EA2B551 /* MatchFormatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchFormatting.swift; sourceTree = "<group>"; };
+		7CEC52D1772614B16A3ED21F /* MatchDetailPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchDetailPresenter.swift; sourceTree = "<group>"; };
+		7D134CB2351B0707CE144F9A /* CreateMatchViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateMatchViewController.swift; sourceTree = "<group>"; };
+		910A0199592F23F85B5C5D21 /* DashedBorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashedBorder.swift; sourceTree = "<group>"; };
+		92C74FA3934B56E03392673F /* MatchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		955F479EFA8D023B0D8C22C5 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		B7FF0046FE83E3352ED30455 /* MatchesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		C77086640A968D15AAD1EA9E /* MatchesWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesWorker.swift; sourceTree = "<group>"; };
+		D079B54E013AFD87BD72823C /* MatchesCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesCoordinator.swift; sourceTree = "<group>"; };
+		EC0896345C20BC42DB3750BD /* MatchesStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesStore.swift; sourceTree = "<group>"; };
+		EC3F11AA358049F3D9AB58F7 /* MatchesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchesPresenter.swift; sourceTree = "<group>"; };
+		EDDC9335D330780668E220E7 /* MatchDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
+		EF199E5F381BC592959174A6 /* ToggleSwitchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToggleSwitchView.swift; sourceTree = "<group>"; };
+		F14F76F5551C4E749F484AF0 /* MatchDetailModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchDetailModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +147,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B15397D2F971CEC003D782E /* Resources */ = {
+		3B6317A35D415C29D0F4EEF4 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD5BCB7E724D34EFE11B61 /* MatchesModels.swift */,
+				C77086640A968D15AAD1EA9E /* MatchesWorker.swift */,
+				153B0E84620B06F29B6400CF /* MatchesInteractor.swift */,
+				EC3F11AA358049F3D9AB58F7 /* MatchesPresenter.swift */,
+				B7FF0046FE83E3352ED30455 /* MatchesViewController.swift */,
+				92C74FA3934B56E03392673F /* MatchCell.swift */,
+				D079B54E013AFD87BD72823C /* MatchesCoordinator.swift */,
+			);
+			name = Matches;
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		55469AADBF25FC1A43574FCD /* MatchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F14F76F5551C4E749F484AF0 /* MatchDetailModels.swift */,
+				25E2D8AF1B3D748C31938168 /* MatchDetailWorker.swift */,
+				5EBE34A8158911A813C3EC82 /* MatchDetailInteractor.swift */,
+				7CEC52D1772614B16A3ED21F /* MatchDetailPresenter.swift */,
+				EDDC9335D330780668E220E7 /* MatchDetailViewController.swift */,
+				4D1B0A1F953685FE13283501 /* TeamCardView.swift */,
+				EF199E5F381BC592959174A6 /* ToggleSwitchView.swift */,
+			);
+			name = MatchDetail;
+			path = MatchDetail;
+			sourceTree = "<group>";
+		};
+		5B15397D2F971CEC003D782E /* App */ = {
 			isa = PBXGroup;
 			children = (
 				5B3B724B2F4540A600A0C1BB /* Assets.xcassets */,
@@ -109,15 +185,18 @@
 				5B3B72412F4540A400A0C1BB /* SceneDelegate.swift */,
 				5B3B723F2F4540A400A0C1BB /* AppDelegate.swift */,
 			);
-			path = Resources;
+			path = App;
 			sourceTree = "<group>";
 		};
-		5B15397E2F971D1F003D782E /* Features */ = {
+		5B15397E2F971D1F003D782E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				5B15397F2F971D31003D782E /* Login */,
+				3B6317A35D415C29D0F4EEF4 /* Matches */,
+				CC75B33EC3790C6D9A87F0B4 /* CreateMatch */,
+				55469AADBF25FC1A43574FCD /* MatchDetail */,
 			);
-			path = Features;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		5B15397F2F971D31003D782E /* Login */ = {
@@ -129,12 +208,13 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		5B1539802F972FEA003D782E /* Networking */ = {
+		5B1539802F972FEA003D782E /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				5B1539812F972FFE003D782E /* Networking.swift */,
+				EC0896345C20BC42DB3750BD /* MatchesStore.swift */,
 			);
-			path = Networking;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		5B3B72332F4540A400A0C1BB = {
@@ -161,13 +241,15 @@
 			isa = PBXGroup;
 			children = (
 				5BF4DE492F9F8DD3000B6CEF /* Core */,
-				5B1539802F972FEA003D782E /* Networking */,
-				5B15397E2F971D1F003D782E /* Features */,
-				5B15397D2F971CEC003D782E /* Resources */,
+				5B1539802F972FEA003D782E /* Services */,
+				5B15397E2F971D1F003D782E /* Scenes */,
+				5B15397D2F971CEC003D782E /* App */,
 				5B3B72742F4541AA00A0C1BB /* Documentation.md */,
 				5BAF5CE92F81C973009C3358 /* GoogleService-Info.plist */,
 				5B3B72502F4540A600A0C1BB /* Info.plist */,
 				5B3B72482F4540A400A0C1BB /* FutebasApp.xcdatamodeld */,
+				955F479EFA8D023B0D8C22C5 /* Match.swift */,
+				E359AF5C05E2741119FFAC63 /* Common */,
 			);
 			path = FutebasApp;
 			sourceTree = "<group>";
@@ -216,6 +298,29 @@
 				5BB0386B2FA42E51008E714B /* FutebasTypography.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CC75B33EC3790C6D9A87F0B4 /* CreateMatch */ = {
+			isa = PBXGroup;
+			children = (
+				424E2DF4C70BB99C2713C949 /* CreateMatchModels.swift */,
+				68BC357D1AF2A6C8CDB34FF4 /* CreateMatchWorker.swift */,
+				54A39A23D863AC66BF5CD638 /* CreateMatchInteractor.swift */,
+				37018333EFA40E00A34ABED3 /* CreateMatchPresenter.swift */,
+				7D134CB2351B0707CE144F9A /* CreateMatchViewController.swift */,
+			);
+			name = CreateMatch;
+			path = CreateMatch;
+			sourceTree = "<group>";
+		};
+		E359AF5C05E2741119FFAC63 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				77B31490015901CA7EA2B551 /* MatchFormatting.swift */,
+				910A0199592F23F85B5C5D21 /* DashedBorder.swift */,
+			);
+			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +469,29 @@
 				5B8023982FA10D3E00C04D61 /* FutebasButton.swift in Sources */,
 				5BB0386A2FA42D99008E714B /* FutebasRadius.swift in Sources */,
 				5BF4DE4B2F9F8DF3000B6CEF /* FutebasTextField.swift in Sources */,
+				673DE9E339F9F375519E79EC /* Match.swift in Sources */,
+				5AFF3A4E111A489EB28BC5F9 /* MatchFormatting.swift in Sources */,
+				A08ACA9F8515FA20F48F0FCE /* DashedBorder.swift in Sources */,
+				B3FA28B076D3D5D5DCADD5E4 /* MatchesStore.swift in Sources */,
+				980DEECDBA05D8A803D08916 /* MatchesModels.swift in Sources */,
+				1CE738F87A0C47E5B6570779 /* MatchesWorker.swift in Sources */,
+				9DF516FA78D827D92FD3DDCA /* MatchesInteractor.swift in Sources */,
+				B13A51FD170BE0A1A97852D1 /* MatchesPresenter.swift in Sources */,
+				E0BA0BB37A705CD544A4F73F /* MatchesViewController.swift in Sources */,
+				1BA33E28FD097911CFD9FA54 /* MatchCell.swift in Sources */,
+				6CFF4A794CF6A5EDB0B75191 /* MatchesCoordinator.swift in Sources */,
+				7B07B6BE230AEB6C61472B92 /* CreateMatchModels.swift in Sources */,
+				74914FD774822026AD7781A4 /* CreateMatchWorker.swift in Sources */,
+				B27E3A0DD3ACD42FF9FD9698 /* CreateMatchInteractor.swift in Sources */,
+				41696345290D6D44A18E0E6D /* CreateMatchPresenter.swift in Sources */,
+				E3D8F82C29E78812DC648359 /* CreateMatchViewController.swift in Sources */,
+				C5EA5EB1B888761F0167F679 /* MatchDetailModels.swift in Sources */,
+				1D27F995FB7B657182FA2FDA /* MatchDetailWorker.swift in Sources */,
+				0DCD6C2AE723A7047C8C8711 /* MatchDetailInteractor.swift in Sources */,
+				EFFB14A978DFD075E9BA6DFC /* MatchDetailPresenter.swift in Sources */,
+				9B86554FC0DC930990ECD59D /* MatchDetailViewController.swift in Sources */,
+				BA38EB809A6BE1FF8EF8902D /* TeamCardView.swift in Sources */,
+				E00F4AB35637DD7785C42A22 /* ToggleSwitchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
